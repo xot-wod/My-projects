@@ -1,0 +1,128 @@
+/**
+ * Universal styling
+ *
+ * @format
+ */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.nav {
+  width: 8.55vh;
+  height: 100vh;
+  background: #161a2d;
+  transition: all 0.4s ease-in-out;
+  padding: 1.55rem 1.2rem;
+}
+
+.nav:hover {
+  width: 26vh;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+  overflow: hidden;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+img {
+  width: 42px;
+  height: 42px;
+}
+
+.main-title,
+.general-title {
+  font-size: 1rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-weight: 600;
+}
+
+.main-title span,
+.general-title span {
+  opacity: 0;
+}
+
+.nav:hover .main-title span,
+.nav:hover .general-title span {
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.line-breaker {
+  position: absolute;
+  opacity: 1;
+  width: 45px;
+  height: 1.5px;
+  background: blue;
+}
+
+.main-line-breaker {
+  top: 6.8rem;
+}
+
+.general-line-breaker {
+  top: 20.4rem;
+}
+
+.account-line-breaker {
+  top: 37.5rem;
+}
+
+ul {
+  margin-left: 0.6rem;
+  list-style: none;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+.nav:hover .main-line-breaker,
+.nav:hover .general-line-breaker,
+.nav:hover .account-line-breaker {
+  transition: all 0.1s ease-in-out;
+  opacity: 0;
+}
+
+.flex > h3 {
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  padding: 0.4rem;
+  background: white;
+  transition: 0.2s ease-in-out;
+  border-radius: 0.1rem;
+}
+
+a:hover > span,
+a:hover > h3 {
+  color: black;
+}
+
+.user {
+  padding-top: 6em;
+}
+
+.user-photo {
+  border: white solid 1px;
+  border-radius: 50%;
+}

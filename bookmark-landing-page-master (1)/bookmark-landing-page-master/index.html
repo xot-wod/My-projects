@@ -1,0 +1,135 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Bookmark landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <img src="images/logo-bookmark.svg" alt="" />
+        </div>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li><a class="nav-items" href="features.html">FEATURES</a></li>
+            <li><a class="nav-items" href="pricing.html">PRICING</a></li>
+            <li><a class="nav-items" href="contact.html">CONTACT</a></li>
+            <li>
+              <a class="nav-items" id="last-nav-item" href="login.html"
+                >LOGIN</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="section-1">
+          <div class="Main-content">
+            <h1 class="Main-title">
+              A Simple Bookmark <br />
+              Manager
+            </h1>
+            <p class="Main-info">
+              clean and simple interface to organize your favourite <br />
+              websites. Open a new browser tab and see your sites load <br />
+              instantly. Try it for free
+            </p>
+            <div class="main-buttons">
+              <button id="main-b-1">Get it on Chrome</button>
+              <button id="main-b-2">Get it on Firefox</button>
+            </div>
+          </div>
+          <div class="Main-image">
+            <img src="images/illustration-hero.svg" alt="" />
+          </div>
+        </section>
+
+        <section class="section-2">
+          <h2 class="sec2-title">Features</h2>
+          <p class="Main-info">
+            Our aim is to make it quick and easy for you to access your <br />
+            favourite websites. Your bookmarks sync between your devices <br />
+            so you can access them on the go
+          </p>
+          <br />
+          <div class="features-tab">
+            <ul class="flex">
+              <li>
+                <button class="tab-buttons active">Simple Bookmarking</button>
+              </li>
+              <li>
+                <button class="tab-buttons">Speedy Searching</button>
+              </li>
+              <li><button class="tab-buttons">Easy Sharin</button></li>
+            </ul>
+          </div>
+          <div class="tab-futures">
+            <div class="tab-images fix">
+              <img src="images/illustration-features-tab-1.svg" alt="" />
+            </div>
+            <div class="tab-info">
+              <h2 class="sec2-title">Bookmark in one click</h2>
+              <p class="Main-info">
+                Organize your bookmarks however you like. Our <br />
+                simple drag-and-drop interface gives you complete <br />
+                control over how you manage your favourite sites
+              </p>
+              <button id="main-b-1">More info</button>
+            </div>
+          </div>
+
+          <div class="tab-futures hidden">
+            <div class="tab-images">
+              <img src="images/illustration-features-tab-2.svg" alt="" />
+            </div>
+            <div class="tab-info">
+              <h2 class="sec2-title">Intelligent search</h2>
+              <p class="Main-info">
+                ur powerful search feature will help you find saved <br />
+                sites in no time at all. No need to trawl through all of <br />
+                your bookmarks
+              </p>
+              <button id="main-b-1">More info</button>
+            </div>
+          </div>
+          <div class="tab-futures hidden">
+            <div class="tab-images">
+              <img src="images/illustration-features-tab-3.svg" alt="" />
+            </div>
+            <div class="tab-info">
+              <h2 class="sec2-title">Easily share your bookmarks</h2>
+              <p class="Main-info">
+                Easily share your bookmarks and collections with <br />
+                others. Create a shareable link that you can send at <br />
+                the click of a button
+              </p>
+              <button id="main-b-1">More info</button>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="scrip.js"></script>
+  </body>
+</html>

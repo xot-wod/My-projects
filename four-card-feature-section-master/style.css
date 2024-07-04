@@ -1,0 +1,118 @@
+:root {
+    --ff-ss:"Poppins" , sans-serif;
+    --blue:hsl(212, 86%, 64%);
+    --orange:hsl(34, 97%, 64%);
+    --cyan:hsl(180, 62%, 55%);
+    --VeryDarkBlue:hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray:hsl(0, 0%, 98%);
+    --fw-light:200; 
+    --medium:400;
+    --bold: 600;
+    --wh-co:white;
+
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: var(--ff-ss);
+    background-color: var(--VeryLightGray);
+}
+.container{
+    text-align: center;
+    height: auto;
+    width: 1440px;
+    line-height: 1.5;
+    margin: auto;
+    margin-top: 5rem;
+}
+h1, p{
+    text-align: left;
+    margin-left: 2rem;
+    
+
+}
+h1{
+    color: var(--VeryDarkBlue);
+    font-weight: var(--bold);
+}
+p{
+    line-height: 2;
+    color: var(--GrayishBlue);
+}
+
+.first{
+    font-weight: var(--fw-light);
+    color: var(--VeryDarkBlue);
+    text-align: center;
+}
+.second{
+    font-weight: var(--bold);
+    color: var(--VeryDarkBlue);
+    text-align: center;
+}
+.third{
+    color: var(--GrayishBlue);
+    font-weight: var(--medium);
+    text-align: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    line-height: 2.5;
+    gap: 2rem;
+    justify-content: center;
+
+}
+.cards1{
+    grid-row: 1/ span 2;
+    align-self: center ;
+    background-color: var(--wh-co);
+    display: inline;
+    border-radius: 1rem; 
+    border-top: .4rem solid var(--cyan);
+    box-shadow: 0rem 1rem 1rem var(--GrayishBlue);
+
+
+
+}
+.cards4{
+    grid-row: 1/ span 2;
+    grid-column: 3;
+    align-self: center ;
+    background-color: var(--wh-co);
+    display: inline;
+    border-radius: 1rem; 
+    border-top: .4rem solid var(--blue);
+    box-shadow: 0rem 1rem 1rem var(--GrayishBlue);
+
+}
+.cards3{
+    background-color: var(--wh-co);
+    display: inline;
+    border-radius: 1rem; 
+    border-top: .4rem solid var(--orange);
+    box-shadow: 0rem 1rem 1rem var(--GrayishBlue);
+
+
+    
+}
+.cards2{
+    background-color: var(--wh-co);
+    display: inline;
+    border-radius: 1rem; 
+    border-top: .4rem solid  hsl(0, 78%, 62%);
+    box-shadow: 0rem 1rem 1rem var(--GrayishBlue);
+
+}
+.svg{
+    display: block;
+    margin: 3rem;
+    margin-left: auto;
+}

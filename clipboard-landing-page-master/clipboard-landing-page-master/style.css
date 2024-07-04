@@ -1,0 +1,155 @@
+/** @format */
+
+:root {
+  --dark-grayish-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+  --cyan-blue: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  --fw-light: 400;
+  --fw-normal: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/images/bg-header-desktop.png);
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  text-align: center;
+  width: 1440px;
+  display: inline;
+}
+section {
+  margin-top: 8rem;
+  line-height: 3;
+}
+.header {
+  margin-top: 9rem;
+  line-height: 4;
+}
+.header-title {
+  font-size: 39px;
+  font-weight: var(--fw-normal);
+  color: var(--dark-grayish-blue);
+}
+.h1p-gap {
+  line-height: 2;
+}
+.details {
+  line-height: 1.8;
+  font-weight: var(--fw-light);
+  color: var(--grayish-blue);
+}
+.buttons {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.b {
+  border-radius: 3rem;
+  font-size: 1.3rem;
+  color: white;
+  padding: 1rem 1.5rem;
+}
+.b1 {
+  background-color: var(--cyan-blue);
+  border-color: var(--cyan-blue);
+}
+.b2 {
+  background-color: var(--light-blue);
+  border-color: var(--light-blue);
+}
+.title {
+  font-size: 33px;
+  color: var(--dark-grayish-blue);
+}
+.second-header {
+  display: grid;
+  justify-items: stretch;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 8rem;
+}
+.compimg {
+  margin-left: 1rem;
+}
+.list {
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  line-height: 2;
+  flex-direction: column;
+}
+ul {
+  list-style: none;
+}
+.computer-title {
+  justify-self: flex-start;
+  margin-top: 3.5rem;
+  color: var(--dark-grayish-blue);
+}
+.cd {
+  line-height: 1.8;
+}
+.top-title {
+  margin-top: 0rem;
+}
+.tools-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.logo {
+  gap: 7rem;
+}
+.one {
+  padding-top: 1.5rem;
+}
+.footer {
+  background-color: rgb(242, 242, 242);
+  display: grid;
+  grid-template-columns: 350px 1fr 350px;
+  grid-template-rows: 150px;
+  align-items: center;
+}
+.logo-container {
+  justify-self: center;
+}
+.footer-links {
+  justify-self: start;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 1.3rem;
+  column-gap: 5rem;
+}
+.footerlogos {
+  justify-self: center;
+  display: flex;
+  gap: 1.5rem;
+}
+.support-link {
+  color: var(--dark-grayish-blue);
+  text-decoration: none;
+}
+.buttons {
+  margin-top: 1.5rem;
+}
+.b :active {
+  cursor: none;
+}
+.fourth-section {
+  margin-top: 0rem;
+}
