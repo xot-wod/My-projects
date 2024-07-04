@@ -1,0 +1,228 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="phone-navbar hidden">
+      <ul class="phone-navbar-list">
+        <li class="phone-navbar-contents">
+          <button class="button-1">
+            Features
+            <img class="arrow-logo" src="images/icon-arrow-down.svg" alt="" />
+          </button>
+          <div class="op-1-phone hidden">
+            <ul class="op-list">
+              <li class="option-item">
+                <img src="images/icon-todo.svg" alt="" class="op-svg" />
+                <p class="options">Todo List</p>
+              </li>
+              <li class="option-item">
+                <img src="images/icon-calendar.svg" alt="" class="op-svg" />
+                <p class="options">Calendar</p>
+              </li>
+              <li class="option-item">
+                <img src="images/icon-reminders.svg" alt="" class="op-svg" />
+                <p class="options">File Manager</p>
+              </li>
+              <li class="option-item">
+                <img src="images/icon-planning.svg" alt="" class="op-svg" />
+                <p class="options">Planning</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="phone-navbar-contents"></li>
+        <li class="phone-navbar-contents">
+          <button class="button-2">
+            Company
+            <img class="arrow-logo0" src="images/icon-arrow-down.svg" alt="" />
+          </button>
+          <div class="op-2-phone hidden">
+            <ul class="op-list">
+              <li>
+                <p class="options">History</p>
+              </li>
+              <li>
+                <p class="options">Our Team</p>
+              </li>
+              <li>
+                <p class="options">Blog</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="phone-navbar-contenst fix"><a href="">Carrers</a></li>
+        <li class="phone-navbar-contents fix"><a href="">About</a></li>
+        <li class="register-phone">
+          <ul class="register-phone">
+            <li class="register-phone"><a href=""></a><a href="">Login</a></li>
+            <li class="register-phone last-nav-phone">
+              <a href="">Register</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <header>
+        <nav class="navbar">
+          <div class="overlay hidden"></div>
+          <div class="logo">
+            <img class="logo" src="./images/logo.svg" alt="logo" />
+          </div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <div class="flex-wraper">
+                <button class="button-1 show">
+                  Features
+                  <img
+                    class="arrow-logo"
+                    src="images/icon-arrow-down.svg"
+                    alt=""
+                  />
+                </button>
+                <div class="op-1 hidden">
+                  <ul class="op-list">
+                    <li class="option-item">
+                      <img src="images/icon-todo.svg" alt="" class="op-svg" />
+                      <p class="options">Todo List</p>
+                    </li>
+                    <li class="option-item">
+                      <img
+                        src="images/icon-calendar.svg"
+                        alt=""
+                        class="op-svg"
+                      />
+                      <p class="options">Calendar</p>
+                    </li>
+                    <li class="option-item">
+                      <img
+                        src="images/icon-reminders.svg"
+                        alt=""
+                        class="op-svg"
+                      />
+                      <p class="options">Reminders</p>
+                    </li>
+                    <li class="option-item">
+                      <img
+                        src="images/icon-planning.svg"
+                        alt=""
+                        class="op-svg"
+                      />
+                      <p class="options">Planning</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="flex-wraper">
+                <button class="button-2">
+                  Company
+                  <img
+                    class="arrow-logo0"
+                    src="images/icon-arrow-down.svg"
+                    alt=""
+                  />
+                </button>
+                <div class="op-2 hidden">
+                  <ul class="op-list">
+                    <li>
+                      <p class="options">History</p>
+                    </li>
+                    <li>
+                      <p class="options">Our Team</p>
+                    </li>
+                    <li>
+                      <p class="options">Blog</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item"><a href="#careers">Careers</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+          </ul>
+          <div class="overlay hidden"></div>
+
+          <div class="register">
+            <ul class="register">
+              <li><a href=""></a><a href="">Login</a></li>
+              <li id="last-nav"><a href=""></a><a href="">Register</a></li>
+            </ul>
+          </div>
+          <button class="mobile-nav-button hidden">
+            <img class="phone-open-close" src="images/icon-menu.svg" alt="" />
+          </button>
+        </nav>
+        <button></button>
+      </header>
+
+      <main>
+        <div class="main-grid-container">
+          <div class="Main-content">
+            <img
+              class="Main-photo-phone hidden"
+              src="images/image-hero-mobile.png"
+              alt=""
+            />
+            <h1 class="Main-title">
+              Make <br />
+              remote work
+            </h1>
+            <h1 class="Main-title-phone hidden">Make remote work</h1>
+
+            <p class="Main-info">
+              Get your team in sync, no matter your location. <br />
+              Streamline processes, create team rituals, and <br />
+              watch productivity soar
+            </p>
+
+            <a id="learn-more" href="">Learn more</a>
+            <div class="clients">
+              <img
+                class="clients-pic"
+                src="images/client-databiz.svg"
+                alt=""
+              /><img src="images/client-audiophile.svg" alt="" /><img
+                class="clients-pic"
+                src="images/client-meet.svg"
+                alt=""
+              /><img class="clients-pic" src="images/client-maker.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="Main-photo">
+            <img
+              class="Main-photo"
+              src="images/image-hero-desktop.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
